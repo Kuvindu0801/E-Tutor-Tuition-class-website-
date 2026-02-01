@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Tutor | Student Login</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+
+<body>
+    <div class="login-form">
+        <div class="logo">
+            <span onclick="Home()"><img src="assets/img/logo.png" alt="logo"></span>
+        </div>
+        <form action="">
+
+            <label for="">Phone Number</label>
+            <input type="text" placeholder="07X XXX XXXX" id="login-textbox">
+            <button id="btn-login">Login</button>
+            <label for="">New Account?<a href="">Register</a></label>
+        </form>
+    </div>
+    <script>
+        const loginTextbox = document.getElementById("login-textbox");
+        document.getElementById(btn - login).onclick = function getUsername() {
+            
+            if (loginTextbox.value === "") {
+                alert("Enter your phone number");
+            } else {
+                let username = loginTextbox.value;
+            }
+        }
+        function Home() {
+            const span = document.getElementById("img");
+            span.innerHTML = `<a href="index.html"></a>`;
+        }
+    </script>
+</body>
+
+</html>
