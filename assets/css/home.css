@@ -5,15 +5,16 @@
 
 body {
     font-family: sans-serif;
-    
-    
+
+
 
 }
 
 nav {
     display: flex;
     background: rgb(236, 244, 240);
-    box-shadow:12px 2px 20px  rgb(97, 190, 224);
+    box-shadow: 12px 2px 20px rgb(97, 190, 224);
+    height: 80px;
 
 }
 
@@ -42,20 +43,24 @@ img {
     list-style: none;
     font-weight: bold;
     cursor: pointer;
-    
+
 }
-.center-nav li a{
+
+.center-nav li a {
     color: black;
     text-decoration: none;
 }
-.center-nav  li a:hover {
+
+.center-nav li a:hover {
     color: rgb(60, 187, 189);
 }
-.center-nav li .active{
+
+.center-nav li .active {
     color: rgb(13, 131, 167);
 }
-.btn-register  {
-    background: linear-gradient(333deg,rgb(15, 211, 178),rgb(17, 91, 156));
+
+.btn-register {
+    background: linear-gradient(333deg, rgb(15, 211, 178), rgb(17, 91, 156));
     color: white;
     border: none;
     border-radius: 20px;
@@ -64,7 +69,8 @@ img {
     margin: 30px;
 
 }
-button a{
+
+button a {
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -73,4 +79,57 @@ button a{
 
 .btn-register:hover {
     opacity: 0.6;
+}
+/* hero section */
+.hero-container section {
+    height: 630px;
+    box-shadow: 2px 3px 4px rgb(44, 126, 202);
+}
+.hero-container section .max-w-7xl{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 130px 30px 100px 70px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(40deg, rgb(196, 196, 231), white);
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 2px 1px 10px rgb(23, 193, 223);
+
+}
+
+
+
+footer {
+    background: linear-gradient(50deg, darkblue, white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: darkblue;
 }
