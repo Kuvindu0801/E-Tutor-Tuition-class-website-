@@ -76,9 +76,8 @@ button a{
 }
 
 .teacher-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: inline-block;
+
     gap: 80px;
     padding: 20px;
     margin: 10px;
@@ -93,6 +92,7 @@ button a{
     border-radius: 20px;
 }
 .card img{
+    display: block;
     width: 150px;
     height: 200px;
 }

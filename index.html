@@ -10,102 +10,165 @@
 </head>
 
 <body>
-    <!-- navbar -->
-
+    <!-- Navbar -->
     <nav>
         <div class="logo">
-            <img src="assets/img/logo.png" alt="logo">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="E-Tutor logo">
+            </a>
         </div>
+
         <ul class="center-nav">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="classes.html">Classes</a></li>
             <li><a href="teachers.html">Our Teachers</a></li>
             <li><a href="timetable.html">Time Table</a></li>
-            <li><a href="studentFeedback.html">Student FeedBack</a></li>
+            <li><a href="studentFeedback.html">Student Feedback</a></li>
             <li><a href="FAQ.html">FAQ</a></li>
-
-            <button class="btn-register" onclick="register">
-                <a href="login.html">Student Login</a></button>
-
         </ul>
+
+        <button class="btn-register">
+            <a href="login.html">Student Login</a>
+        </button>
     </nav>
-<!-- hero section -->
+
+    <!-- Hero Section -->
     <div class="hero-container">
-        <div class="hero">
-            <section class="bg-gradient-to-r from-blue-600 via-cyan-500 to-emerald-500 text-white py-24 px-4">
-                <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-                    <!-- Left: Content -->
-                    <div class="space-y-8">
-                        <h1 class="text-5xl md:text-7xl font-bold leading-tight">
-                            Best <span class="text-cyan-300">Tuition Classes</span><br>
-                            O/L & A/L
-                        </h1>
-                        <p class="text-xl md:text-2xl text-blue-100 max-w-lg">
-                            90% Pass Rate | Expert Teachers | Maths, Science, Commerce<br>
-                            Online & Offline Classes Available
-                        </p>
-                        <div class="flex flex-col sm:flex-row gap-4">
-                            <a href="#courses"
-                                class="bg-cyan-400 hover:bg-cyan-500 text-gray-900 px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
-                                View Courses
-                            </a>
-                            <a href="#contact"
-                                class="border-2 border-white hover:bg-white hover:text-blue-700 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300">
-                                WhatsApp Now
-                            </a>
-                        </div>
-                        <!-- Stats -->
-                        <div class="grid grid-cols-3 gap-8 text-center md:text-left">
-                            <div>
-                                <div class="text-3xl font-bold text-cyan-300">500+</div>
-                                <div class="text-sm opacity-90">Students</div>
-                            </div>
-                            <div>
-                                <div class="text-3xl font-bold text-cyan-300">90%</div>
-                                <div class="text-sm opacity-90">Pass Rate</div>
-                            </div>
-                            <div>
-                                <div class="text-3xl font-bold text-cyan-300">10+</div>
-                                <div class="text-sm opacity-90">Years</div>
-                            </div>
-                        </div>
+        <section class="bg-gradient-to-r from-blue-600 via-cyan-500 to-emerald-500 text-white py-24 px-4">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+                <!-- Left: Content -->
+                <div class="space-y-8">
+                    <h1 class="text-5xl md:text-7xl font-bold leading-tight">
+                        Best <span class="text-cyan-300">Tuition Classes</span><br>
+                        O/L &amp; A/L
+                    </h1>
+
+                    <p class="text-xl md:text-2xl text-blue-100 max-w-lg">
+                        90% Pass Rate | Expert Teachers | Maths, Science, Commerce<br>
+                        Online &amp; Offline Classes Available
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="classes.html"
+                            class="bg-cyan-400 hover:bg-cyan-500 text-gray-900 px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300">
+                            View Courses
+                        </a>
+
+                        <a href="#contact"
+                            class="border-2 border-white hover:bg-white hover:text-blue-700 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300">
+                            WhatsApp Now
+                        </a>
                     </div>
 
-                    <!-- Right: Hero Image -->
-                    <div class="relative">
-                        <img src="#"
-                            alt="Happy students studying"
-                            class="w-full h-96 object-cover rounded-3xl shadow-2xl mx-auto md:ml-auto transform hover:scale-105 transition-transform duration-500">
-                        <div
-                            class="absolute -bottom-4 -right-4 w-24 h-24 bg-cyan-400 rounded-full opacity-50 animate-bounce">
+                    <!-- Stats -->
+                    <div class="grid grid-cols-3 gap-8 text-center md:text-left">
+                        <div>
+                            <div class="text-3xl font-bold text-cyan-300">5000+</div>
+                            <div class="text-sm opacity-90">Students</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-cyan-300">90%</div>
+                            <div class="text-sm opacity-90">Pass Rate</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-cyan-300">10+</div>
+                            <div class="text-sm opacity-90">Years</div>
                         </div>
                     </div>
                 </div>
-            </section>
 
-        </div>
+                <!-- Right: Hero Image -->
+                <div class="relative">
+                    <img src="assets/img/Tution-Class.jpg" alt="Happy students studying"
+                        class="w-full h-96 object-cover rounded-3xl shadow-2xl mx-auto md:ml-auto transform hover:scale-105 transition-transform duration-500">
+                    <div
+                        class="absolute -bottom-4 -right-4 w-24 h-24 bg-cyan-400 rounded-full opacity-50 animate-bounce">
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </div>
 
+    <!-- Description Cards -->
     <div class="description">
         <div class="card">
-            <h1>Lorem</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A officiis nihil laborum iusto blanditiis
-                nostrum, fugit, quisquam excepturi quidem qui est deserunt saepe, dignissimos unde in facere ex odio
-                praesentium.</p>
+            <h1>Individual Attention</h1>
+            <p>
+                Small group classes with focused teaching to help every student reach their full potential.
+            </p>
         </div>
+
         <div class="card">
-            <h1>Lorem</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A officiis nihil laborum iusto blanditiis
-                nostrum, fugit, quisquam excepturi quidem qui est deserunt saepe, dignissimos unde in facere ex odio
-                praesentium.</p>
+            <h1>Exam-Focused</h1>
+            <p>
+                Past paper discussions, model questions, and theory coverage based on the latest syllabus.
+            </p>
         </div>
+
         <div class="card">
-            <h1>Lorem</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A officiis nihil laborum iusto blanditiis
-                nostrum, fugit, quisquam excepturi quidem qui est deserunt saepe, dignissimos unde in facere ex odio
-                praesentium.</p>
+            <h1>Modern Learning</h1>
+            <p>
+                Online resources, multimedia lessons, and recorded sessions to support continuous learning.
+            </p>
         </div>
     </div>
+
+    <!-- Classes Section -->
+    <div class="class-container" id="courses">
+        <div class="class">
+            <h2>2026 A/L</h2>
+            <p>
+                Intensive revision, full theory coverage and paper discussion sessions tailored for 2026 A/L students.
+            </p>
+        </div>
+
+        <div class="class">
+            <h2>2027 A/L</h2>
+            <p>
+                Early-start program focusing on concept building, regular tests and systematic exam preparation.
+            </p>
+        </div>
+    </div>
+
+    <!-- student-feedback -->
+
+
+    <div class="feedback-heading">
+        <h1>Student Feedback</h1>
+    </div>
+    <div class="feedback-container">
+        <div class="feedback">
+            <h2>Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus temporibus unde commodi optio
+                consectetur incidunt quibusdam ratione, magnam dicta ex sapiente veniam fugiat voluptatum error
+                officiis,
+                expedita tempora maiores!</p>
+        </div>
+        <div class="feedback">
+            <h2>Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus temporibus unde commodi optio
+                consectetur incidunt quibusdam ratione, magnam dicta ex sapiente veniam fugiat voluptatum error
+                officiis,
+                expedita tempora maiores!</p>
+        </div>
+        <div class="feedback">
+            <h2>Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus temporibus unde commodi optio
+                consectetur incidunt quibusdam ratione, magnam dicta ex sapiente veniam fugiat voluptatum error
+                officiis,
+                expedita tempora maiores!</p>
+        </div>
+        <div class="feedback">
+            <h2>Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus temporibus unde commodi optio
+                consectetur incidunt quibusdam ratione, magnam dicta ex sapiente veniam fugiat voluptatum error
+                officiis,
+                expedita tempora maiores!</p>
+        </div>
+    </div>
+    <!-- FAQ Section -->
     <div class="faq">
         <section id="faq" class="bg-white py-16 px-4">
             <div class="max-w-5xl mx-auto">
@@ -121,6 +184,7 @@
 
                 <!-- FAQ List -->
                 <div class="space-y-4">
+
                     <!-- Item 1 -->
                     <div
                         class="border border-cyan-200 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-200">
@@ -192,14 +256,81 @@
                             through enrollment.
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
-
     </div>
 
+    <!-- Footer -->
+    <footer>
+        <div class="max-w-7xl mx-auto px-4 py-12 text-slate-100">
+            <div class="grid md:grid-cols-4 gap-10 border-b border-slate-700 pb-10">
 
+                <!-- Brand -->
+                <div class="space-y-3">
+                    <h2 class="text-2xl font-bold text-sky-300">E-Tutor</h2>
+                    <p class="text-sm">
+                        Quality tuition for O/L &amp; A/L students with expert teachers and personalized support.
+                    </p>
+                    <img src="assets/img/logo.png" alt="E-Tutor logo">
+                </div>
 
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-sky-200 mb-4">
+                        Quick Links
+                    </h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#courses" class="hover:text-sky-300">Courses</a></li>
+                        <li><a href="#teachers" class="hover:text-sky-300">Our Teachers</a></li>
+                        <li><a href="#schedule" class="hover:text-sky-300">Class Schedule</a></li>
+                        <li><a href="#contact" class="hover:text-sky-300">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Subjects -->
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-sky-200 mb-4">
+                        Subjects
+                    </h3>
+                    <ul class="space-y-2 text-sm">
+                        <li>Maths (O/L &amp; A/L)</li>
+                        <li>Science &amp; Biology</li>
+                        <li>Commerce &amp; Accounting</li>
+                        <li>ICT</li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div id="contact">
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-sky-200 mb-4">
+                        Contact
+                    </h3>
+                    <ul class="space-y-2 text-sm">
+                        <li>📍 Negombo, Sri Lanka</li>
+                        <li>📞 +94 XX XXX XXXX</li>
+                        <li>📧 info@e-tutor.lk</li>
+                        <li>
+                            <a href="https://wa.me/94XXXXXXXXX"
+                                class="inline-block mt-2 bg-sky-500 hover:bg-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-full text-xs">
+                                WhatsApp Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="flex flex-col md:flex-row items-center justify-between pt-6 text-xs text-slate-300 gap-2">
+                <p>© 2026 E-Tutor. All rights reserved.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-sky-300">Privacy Policy</a>
+                    <a href="#" class="hover:text-sky-300">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
